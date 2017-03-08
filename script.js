@@ -1,4 +1,4 @@
-var testFolder = ".";
+var testFolder = "path to the folder";
 var fs = require("fs");
 var count = 0;
 fs.readdir(testFolder, (err, files) => {
